@@ -12,8 +12,8 @@ print('hello ' +str(555)+' wow '+ str(999)+str(True)+' hi '+str(10 + 20 - 5)+str
 print('helllo {} wow {} {} hi {} {} ' .format(555,999,True,10+20-5,152.875))
 
 # index number         0  1  2  3   4    5
-print('{4} {2}'.format('a','b','c','d','e'))
+Print('{4} {2}'.format('a','b','c','d','e'))
 
 # วิธีท่ี่ 4 ใฃ้ F-string โดยข้อมูลที่แสดงอยู่ในรูหปแบบของ string โดยมี f อยู่ข้างหน้า
 # (ข้อมูลที่ไม่ใช่ string ให้เขียนใส่ใน {} ณ ตำแหน่งนั้นๆ เลย)
-print(f'hello {555} wow {999} {True} hi {10+20-5} {152.875}')
+print(f'hello {555} wow {999} {True} hi {10+20-5} {152.875} ')
