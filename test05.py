@@ -7,8 +7,15 @@ print('------------------------')
 print(F'สวัสดีคุณ{Fullname}')
 print(F'คุณเกิดในปี {year_born} ตอนนี้คุณอายุ {2568 - int(year_born)}')
 # ใช้ ,
-print("F'คุณ {Fullname}",year_born,'ตอนนี้คุณอายุ',2568 - int(year_born))
+print('คุณ',Fullname)'ตอนนี้คุณอายุ',2568 - int(ัyear_born))
 # ใช้ + 
-print("F'คุณ {fullname}' +str(year_born)+'ตอนนี้คุณอายุ'+ str(year_born))
+print('สวัสดีคุณ '+ fullname)
+print('คุณเกิดในปี '+ year_born + ' ตอนนี้คุณอายุ '+ str(2568 - int(year_bor)
+
 # ใช้ format
-print("F'คุณ {Fullname}",year_born,'ตอนนี้คุณอายุ',2568 - int(year_born))
+print(f'สวัสดีคุณ '+ {fullname})
+print(f'คุณเกิดในปี {year_born} ตอนนี้คุณอายุ {2568 - int(year_born)}') '+ {fullname})
+
+# ใช้ f+string
+print("สวัสดีคุณ{}".format(Fullname))
+print("คุณเกิดในปี{} ตอนนี้คุณอายุ{}".format(year_born,2568 - int(year_born)))
