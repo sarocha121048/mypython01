@@ -12,7 +12,7 @@ print('hello ' +str(555)+' wow '+ str(999)+str(True)+' hi '+str(10 + 20 - 5)+str
 print('helllo {} wow {} {} hi {} {} ' .format(555,999,True,10+20-5,152.875))
 
 # index number         0  1  2  3   4    5
-Print('{4} {2}'.format('a','b','c','d','e'))
+Print('hello {0} wow {1} {2} hi {3} {4} ' .format(555,999,True,10+20-5,152.875))
 
 # วิธีท่ี่ 4 ใฃ้ F-string โดยข้อมูลที่แสดงอยู่ในรูหปแบบของ string โดยมี f อยู่ข้างหน้า
 # (ข้อมูลที่ไม่ใช่ string ให้เขียนใส่ใน {} ณ ตำแหน่งนั้นๆ เลย)
