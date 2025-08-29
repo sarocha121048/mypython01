@@ -21,7 +21,6 @@ print('******************')
 # ข้อมูลที่จะใฃ้กับเครื่องหมายนี้จะต้องเป็น true/false และผลลัพธ์ที่ได้จากการใฃ้เครื่องหมาย true/false
 print(not true)
 print(not false)
-print('-----')
 print(true and true) #true
 print(true and false)
 print(false and true)
