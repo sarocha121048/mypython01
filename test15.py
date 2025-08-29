@@ -8,12 +8,12 @@ print(' ตรวจสอบสภาพรถ')
 print('.............................')
 car_owner = input('ป้อนชื่อเจ้าของรถ : ')
 car_number = input('ป้อนทะเบียนรถ : ')
-car_carbon = input('ป้อนปริมาณก๊าซคาร์บอนไดซ์ออกไซน์ : ')
+car_carbon = float(input('ป้อนปริมาณก๊าซคาร์บอนไดซ์ออกไซน์ : '))
 
-if car_carbon > 678.55 :
-    print(f'รถทะเบียน {car_owner}  ของคุณ {car_owner} ไม่ผ่านเกณฑ์')
+if car_carbon  > 678.55:
+    print(f'รถทะเบียน {car_owner} ของคุณ {car_owner} ไม่ผ่านเกณฑ์')
 else:
-    print('ผ่านรถทะเบียน {car_owner}  ของคุณ {car_owner} ผ่านเกณฑ์')
+    print(f'ผ่านรถทะเบียน {car_owner}  ของคุณ {car_owner} ผ่านเกณฑ์')
 
 
 
