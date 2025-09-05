@@ -12,7 +12,7 @@ print('.............................')
 your_age = (datetime.now().year + 543) - your_yearborn
 
 if your_age >= 35 :
-    print(f'คุณ {your_name} อายุ {your_age} ปี แก่แล้วนะจ้ะ อย่าคิดมาก...')
+    print(f'คุณ {your_name} อายุ {your_age} ปี แก่แล้วนะจ้ะ อย่าคิดมากเลย...')
 else:
     print(f'คุณ {your_name} อายุ {your_age} ปี ยังไม่แก่ แจ่มเลย...')
 

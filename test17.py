@@ -13,16 +13,16 @@ pro_type = input('ป้อนประเภทสินค้า (F/f, W/w, M/
 pro_price = float(input('ป้อนราคาสินค้า : '))
 print('.............................')
 if pro_type == 'F' or pro_type == 'f' :
-    pro_price = pro_price - (pro_price * 0.02 / 100)
+    pro_price = pro_price - (pro_price * 2 / 100)
     print(f'ราคาสินค้าที่ลดแล้วเป็น {pro_sale}  บาท')
 elif pro_type == 'W' or pro_type == 'w' :
-    pro_price = pro_price - (pro_price * 0.04 / 100)
+    pro_price = pro_price - (pro_price * 4 / 100)
     print(f'ราคาสินค้าที่ลดแล้วเป็น {pro_sale}  บาท')
 elif pro_type == 'M' or pro_type == 'm' :
-    pro_price = pro_price - (pro_price * 0.06 / 100)
+    pro_price = pro_price - (pro_price * 6 / 100)
     print(f'ราคาสินค้าที่ลดแล้วเป็น {pro_sale}  บาท')
 elif pro_type == 'K' or pro_type == 'k' :
-    pro_price = pro_price - (pro_price * 0.10 / 100)
+    pro_price = pro_price - (pro_price * 10 / 100)
     print(f'ราคาสินค้าที่ลดแล้วเป็น {pro_sale}  บาท')
 else :
     print('คุณป้อนประเภทผิด !!!')
